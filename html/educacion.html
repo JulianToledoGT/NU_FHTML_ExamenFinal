@@ -1,42 +1,119 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Julian Toledo"/>
-        <meta name="description" content="Hoja de Vida"/>
-        <meta name="language" content="es"/>
-        <meta name="distribution" content="global"/>
-        <meta name="keywords" content="Julian Toledo"/>
-        <meta name="robots" content="all"/>
-        <meta name="revisit-after" content="6 month"/>
-        <title>Julian Toledo - CV</title>
-    </head>
-    <body>
-        <header>
-            <img src="..\img\jt_logo001.svg" alt="Julian Toledo - Logo001" width="60 px"><br>
-            <h1>Julian Toledo - Hoja de Vida</h1>
-            <h2>Educación</h2>
-            <table>
-                <tr>
-                    <td><strong>Nombre Completo:</strong></td>
-                    <td>Nelvin Julian Toledo Guerra</td>
-                </tr>
-            </table>
-        </header>
-        <nav>
-            <a href="../index.html">Inicio</a>
-            <a href="educacion.html">Educación</a>
-            <a href="experiencia.html">Experiencia</a>
-        </nav>
-        <section>
-            <article class="">
-            </article>
-        </section>
-        <aside class="">
-
-        </aside>
-        <footer>
-            <p>Creado por: Julian Toledo</p>
-        </footer>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Julian Toledo"/>
+    <meta name="description" content="Hoja de Vida"/>
+    <meta name="language" content="es"/>
+    <meta name="distribution" content="global"/>
+    <meta name="keywords" content="Julian Toledo"/>
+    <meta name="robots" content="all"/>
+    <meta name="revisit-after" content="6 month"/>
+    <title>Julian Toledo - CV</title>
+  </head>
+  <body>
+    <header>
+      <img src="..\images\jt_logo001.svg" alt="Julian Toledo - Logo001" width="60 px"><br>
+      <h1>Julian Toledo - Hoja de Vida</h1>
+      <h2>Datos Personales</h2>
+      <table>
+        <tr><td><strong>Nombre Completo:</strong></td><td>Nelvin Julian Toledo Guerra</td></tr>
+        <tr><td><strong>Nacimiento:</strong></td><td>Junio de 1980</td></tr>
+        <tr><td><strong>Edad:</strong></td><td>38 años</td></tr>
+        <tr><td><strong>Nacionalidad:</strong></td><td>Guatemalteco</td></tr>
+        <tr><td><strong>Lugar de Nacimiento:</strong></td><td>Antigua Guatemala, Sacatepéquez, Guatemala, C. A.</td></tr>
+      </table>
+    </header>
+    <nav>
+      <a href="../index.html">Inicio</a>
+      <a href="educacion.html">Educación</a>
+      <a href="experiencia.html">Experiencia</a>
+    </nav>
+    <section>
+      <article>
+        <h2>Educación</h2>
+        <table border="1", cellspacing="0">
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+          <tr>
+            <td><strong>2018</strong></td>
+            <td>Next_U</td>
+            <td>Fundamentos HTML</td>
+            <td>En curso</td>
+          </tr>
+          <tr>
+            <td><strong>2018</strong></td>
+            <td>Open English</td>
+            <td>Inglés Nivel 1</td>
+            <td>En curso</td>
+            </tr>
+          <tr>
+            <td><strong>2018</strong></td>
+            <td>IT-Learning</td>
+            <td>Microsoft Project</td>
+            <td>Culminado</td>
+          </tr>
+          <tr>
+            <td><strong>2018</strong></td>
+            <td>IT-Learning</td>
+            <td>Querying Microsoft(R) SQL Server(R) 2014</td>
+            <td>Culminado</td>
+          </tr>
+          <tr>
+            <td><strong>2018</strong></td>
+            <td>IT-Learning</td>
+            <td>Cobit 5</td>
+            <td>Culminado</td>
+            </tr>
+          <tr>
+            <td><strong>2018</strong></td>
+            <td>GBM</td>
+            <td>DB2 for i</td>
+            <td>Culminado</td>
+          </tr>
+          <tr>
+            <td><strong>2018</strong></td>
+            <td>Computing Resources</td>
+            <td>Tableau</td>
+            <td>Culminado</td>
+          </tr>
+        </table>
+      </article>
+      <article>
+        <form autocomplete="on" name="Agregar Estudios">
+          <fieldset>
+            <legend>Agregar Estudios</legend>
+            <p>
+              <label for="anio">Año:</label>
+              <select name="anio">
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+              </select><br>
+              <label for="institucion">Institución:</label>
+              <input type="text" name="institucion" placeholder="Institución Educativa" required><br>
+              <label for="lugar">Lugar:</label>
+              <textarea name="lugar" cols="40" rows="3" placeholder="Puede especificar un lugar..."></textarea><br>
+              <input type="submit">
+            </p>
+          </fieldset>
+        </form>
+        <br>
+      </article>
+    </section>
+    <footer>
+      <p>
+        <strong>Correo Electrónico:</strong> <a href="mailto:juliantoledogt@hotmail.com">juliantoledogt@hotmail.com</a><br>
+        <strong>Teléfono:</strong> (502) 5555-2222<br>
+        <strong>Residencia:</strong> Villa Nueva, Guatemala, Guatemala, C. A.
+      </p>
+      <p>Creado por: Julian Toledo</p>
+    </footer>
+  </body>
 </html>
